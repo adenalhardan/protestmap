@@ -3,14 +3,14 @@ import Firebase from 'firebase'
 import * as Storage from './storage'
 
 const config = {
-    apiKey: "AIzaSyA9gnOqyMZwf7iVM63Mds2DQtoRMpQXdJ8",
-    authDomain: "protestmap-706e1.firebaseapp.com",
-    databaseURL: "https://protestmap-706e1.firebaseio.com",
-    projectId: "protestmap-706e1",
-    storageBucket: "protestmap-706e1.appspot.com",
-    messagingSenderId: "363029104916",
-    appId: "1:363029104916:web:a8a3a46e3446f02f35da01",
-    measurementId: "G-E0J0YX37DF"
+    apiKey: "",
+    authDomain: "",
+    databaseURL: "",
+    projectId: "",
+    storageBucket: "",
+    messagingSenderId: "",
+    appId: "",
+    measurementId: ""
  }
 
 const app = Firebase.initializeApp(config)
