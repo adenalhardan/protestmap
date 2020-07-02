@@ -54,7 +54,7 @@ export default class App extends React.Component {
                <AdMobBanner
                   style = {styles.ad}
                   bannerSize = 'banner'
-                  adUnitID = 'ca-app-pub-5767244355381431/7061449482'
+                  adUnitID = ''
                   servePersonalizedAds = {false}
                   onDidFailToReceiveAdWithError = {(error) => {throw new Error(error)}}
                />
